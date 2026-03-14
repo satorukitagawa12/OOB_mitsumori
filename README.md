@@ -45,4 +45,25 @@
             <tr><th>合計金額</th><td>￥<span id="mitsumori-js-total"></span></td></tr>
         </tbody>
     </table>
+    <div id="mitsumori-js">
+    <table class="mitsumori-js-tbl">
+        <thead><th>項目</th><th>数量</th><th>金額</th></thead>
+        <tbody>
+            <tr id="mitsumori-js-item-1" class="mitsumori-js-item" data-itemnum="1">
+                <td class="item-name">空室清掃</td>
+                <td class="item-quantity">
+                    <label><input type="checkbox" class="check-quantity" data-itemnum="1" value="20000">1R</label>
+                    <label><input type="checkbox" class="check-quantity" data-itemnum="1" value="21000">1K</label>
+                    <label><input type="checkbox" class="check-quantity" data-itemnum="1" value="26000">1DK</label>
+                </td>
+                <td class="item-price">￥<span></span></td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="mitsumori-js-total-tbl" data-taxflg="0">
+        <tbody>
+            <tr><th>合計金額</th><td>￥<span id="mitsumori-js-total"></span></td></tr>
+        </tbody>
+    </table>
+</div>
 </div># OOB_mitsumori
