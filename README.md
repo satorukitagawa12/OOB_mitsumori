@@ -45,7 +45,9 @@
             <tr><th>合計金額</th><td>￥<span id="mitsumori-js-total"></span></td></tr>
         </tbody>
     </table>
-    <div id="mitsumori-js">
+</div>
+
+ <div id="mitsumori-js">
     <table class="mitsumori-js-tbl">
         <thead><th>項目</th><th>数量</th><th>金額</th></thead>
         <tbody>
@@ -65,5 +67,4 @@
             <tr><th>合計金額</th><td>￥<span id="mitsumori-js-total"></span></td></tr>
         </tbody>
     </table>
-</div>
 </div># OOB_mitsumori
